@@ -15,14 +15,14 @@ class Coche
     function connect()
     {
         try {
-            $user = "root";
-            //$user = "if0_37391483";
-            $pass = "root";
-            //$pass = "rQ0fMHEb5O";
-            $dbname = "coches";
-            //$dbname = "if0_37391483_coches";
-            $host = "127.0.0.1";
-            //$host = "sql206.infinityfree.com";
+            //$user = "root";
+            $user = "if0_37391483";
+            //$pass = "root";
+            $pass = "rQ0fMHEb5O";
+            //$dbname = "coches";
+            $dbname = "if0_37391483_vehicles";
+            //$host = "127.0.0.1";
+            $host = "sql206.infinityfree.com";
 
             $con = new PDO("mysql:host=$host; dbname=$dbname", $user, $pass);
             $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -84,4 +84,5 @@ class Coche
     }
 
 }
+
 
