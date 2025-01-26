@@ -16,9 +16,9 @@ class Coche
     {
         try {
             //$user = "root";
-            $user = "if0_37391483";
+            $user = "usuario";
             //$pass = "root";
-            $pass = "rQ0fMHEb5O";
+            $pass = "*********";
             //$dbname = "coches";
             $dbname = "if0_37391483_vehicles";
             //$host = "127.0.0.1";
